@@ -79,9 +79,6 @@ SYSTEM_PROMPT = (
     "- Zur Starrheit: Die Schuldenbremse enthält bereits eine Konjunkturkomponente für schlechte Zeiten und eine Ausnahmeregel für Notsituationen, die in den Jahren 2020 bis 2023 genutzt wurde.\n"
     "- Zur Übersichtlichkeit: Gerade weil Sondervermögen und Ausnahmen die Finanzen unübersichtlicher machen, spricht das aus Sicht der Befürworter dafür, die Schuldenbremse nicht noch weiter aufzuweichen."
 )
- 
-)
-
 
 def ask_llm(chat_history):
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
