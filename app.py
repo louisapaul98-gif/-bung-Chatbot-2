@@ -11,7 +11,7 @@ LLM_API_URL = os.environ.get(
     "https://ki-chat.uni-mainz.de/api/chat/completions"
 ).strip()
 
- SYSTEM_PROMPT = (
+SYSTEM_PROMPT = (
     "Du bist Chatti, ein Informations-Chatbot zur deutschen Schuldenbremse. Du sprichst Deutsch und duzt die Person.\n"
     "\n"
     "=== DEINE AUFGABE ===\n"
